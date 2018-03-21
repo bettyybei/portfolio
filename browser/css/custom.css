@@ -10,12 +10,9 @@
 .pointer {
   cursor: pointer;
 }
-/*.darken {
-  width: 100%;
-  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=80);
-  -moz-opacity:0.8;
-  -khtml-opacity: 0.8;
-  opacity: 0.8;
-  background-color: black;
-}*/
+
+@media (min-width: 992px){
+  #work-experience {
+    margin-left: 20%
+  }
+}
